@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Logged In</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="getInfoUser.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logout invisible" onclick="logout()">Log Out</div>
+
+      <div class="loggedIn-container">
+        <div class="field">
+          <label>
+            <div class="text-field">Username</div>
+            <input type="text" disabled class="usernameInput" />
+          </label>
+
+          <label>
+            <div class="text-field">Birthday</div>
+            <input type="text" disabled class="birthdayInput" />
+          </label>
+
+          <label>
+            <div class="text-field">Gender</div>
+            <input type="text" disabled class="genderInput" />
+          </label>
+
+          <label>
+            <div class="text-field">Email</div>
+            <input type="text" disabled class="emailInput" />
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <script src="getInfoUser.js"></script>
+  </body>
+</html>
